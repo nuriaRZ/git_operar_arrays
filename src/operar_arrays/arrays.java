@@ -18,10 +18,18 @@ public class arrays {
 	}
 	
 	private static void imprimirArray(int array[]) {
-		for (int i=0; i<array.length; i++) {
+		for (int i=0; i<array.length;i++) {
 			
 			System.out.print(array[i]+" ");			
 		}
+	}
+	
+	private static void sumarArray(int array[]) {
+		int suma = 0;
+		for (int i = 0; i < array.length; i++) {
+		suma += array[i];
+		}
+		System.out.println("total suma:" + suma);
 	}
 	
 
